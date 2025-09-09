@@ -4,7 +4,7 @@
 
 [![Node.js](https://img.shields.io/badge/Node.js-18+-green.svg)](https://nodejs.org/)
 [![WebSocket](https://img.shields.io/badge/WebSocket-Real--time-blue.svg)](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket)
-[![OpenAI](https://img.shields.io/badge/OpenAI-GPT--3.5--turbo-orange.svg)](https://openai.com/)
+[![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o--turbo-orange.svg)](https://openai.com/)
 [![React](https://img.shields.io/badge/React-18+-61DAFB.svg)](https://reactjs.org/)
 [![Vue](https://img.shields.io/badge/Vue-3+-4FC08D.svg)](https://vuejs.org/)
 
@@ -35,7 +35,7 @@
 ### Core Technologies
 - **Backend**: Node.js with native HTTP/HTTPS modules
 - **WebSocket**: Native `ws` library for real-time communication
-- **AI**: OpenAI GPT-3.5-turbo with JSON response format
+- **AI**: OpenAI GPT-4o with JSON response format
 - **Audio**: HTML5 Audio API with server-time synchronization
 - **Frontend**: Vanilla JavaScript, React, or Vue.js
 
@@ -484,7 +484,7 @@ WebSocket Connection → Session Creation → Message Handling → AI Response
 #### OpenAI Configuration:
 ```javascript
 {
-  model: 'gpt-3.5-turbo',
+  model: 'gpt-4o-turbo',
   messages: [systemPrompt, ...history, currentMessage],
   temperature: 0.9,
   max_tokens: 100,
@@ -780,7 +780,7 @@ MIT License - Feel free to use this for your own lofi streaming projects!
 
 ## 🙏 Acknowledgments
 
-- **OpenAI**: GPT-3.5-turbo for AI responses
+- **OpenAI**: GPT-4o-turbo for AI responses
 - **Lofi Community**: Inspiration for the aesthetic
 - **Web Standards**: WebSocket, Audio API, modern CSS
 
