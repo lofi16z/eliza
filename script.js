@@ -7,7 +7,7 @@ class LofiStreamChat {
         this.chatSendBtn = document.getElementById('chat-send-btn');
         this.viewerCount = document.getElementById('viewer-count');
         
-        // Audio elements
+        // Audio elements g
         this.lofiAudio = document.getElementById('lofi-audio');
         this.volumeBtn = document.getElementById('volume-btn');
         this.volumeIcon = document.getElementById('volume-icon');
@@ -250,7 +250,7 @@ class LofiStreamChat {
     }
     
     setupWebSocket() {
-        const wsUrl = 'wss://be5ad9cb5146.ngrok-free.app/';
+        const wsUrl = 'wss://<YOUR_URL_HERE';
         console.log('🔌 Connecting to WebSocket:', wsUrl);
         
         this.ws = new WebSocket(wsUrl);
@@ -440,7 +440,7 @@ class LofiStreamChat {
         try {
             console.log('🔗 Making API request to /api/chat');
             
-            const response = await fetch('https://be5ad9cb5146.ngrok-free.app/api/chat', {
+            const response = await fetch('https://YOU_URL_HRERE/api/chat', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
